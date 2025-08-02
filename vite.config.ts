@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/kannada-milana-sathi-connect-main/", // ✅ VERY IMPORTANT for GitHub Pages
   server: {
     host: "::",
     port: 8080,
